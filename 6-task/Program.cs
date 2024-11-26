@@ -18,16 +18,19 @@ namespace _6_task
     /// </summary>
     internal class Program
     {
-        //а) от 2 до 20;
+        
+
+
+       //а) от 2 до 20;
 
         //static void Main(string[] args)
         //{
-        //    Numbers(20);
+        //    Numbers();
         //    Console.ReadKey();
         //}
-        //static void Numbers(int n)
+        //static void Numbers()
         //{
-        //    for (int i = 2; i <= n; i++)
+        //    for (int i = 2; i <= 20; i++)
         //    {
         //        if (i % 2 == 0)
         //        {
@@ -35,26 +38,26 @@ namespace _6_task
         //        }
         //    }
         //}
-
-
-
-
-
-
-
-
+        
+        
+        
+        
+        
+        
+        
+        
         //б) от 2 до 50;
-
-
-
+        
+        
+        
         //static void Main(string[] args)
         //{
-        //    Numbers(50);
+        //    Numbers();
         //    Console.ReadKey();
         //}
-        //static void Numbers(int n)
+        //static void Numbers()
         //{
-        //    for (int i = 2; i <= n; i++)
+        //    for (int i = 2; i <= 50; i++)
         //    {
         //        if (i % 2 == 0)
         //        {
@@ -62,15 +65,15 @@ namespace _6_task
         //        }
         //    }
         //}
-
-
-
-
-
+        
+        
+        
+        
+        
         //в) от 2 до m(m вводится с клавиатуры).
-
-
-
+        
+        
+        
         static void Main(string[] args)
         {
             int m = Input("m=");
@@ -81,11 +84,11 @@ namespace _6_task
         {
             Console.Write(msg);
             return int.Parse(Console.ReadLine());
-
+        
         }
-        static void Numbers(int n)
+        static void Numbers(int m)
         {
-            for (int i = 2; i <= n; i++)
+            for (int i = 2; i <= m; i++)
             {
                 if (i % 2 == 0)
                 {
